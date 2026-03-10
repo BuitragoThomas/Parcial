@@ -1,0 +1,4 @@
+Camiseta,50,15000
+Pantalón,30,25000
+Zapatos,20,40000
+Gorra,15,10000
