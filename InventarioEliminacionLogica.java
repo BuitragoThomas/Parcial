@@ -26,7 +26,7 @@ public class InventarioEliminacionLogica {
     // 1. Marcar un registro como eliminado agregando '#' al inicio si coincide con el producto indicado
     public static void marcarEliminado(String nombreArchivo, String productoEliminar) {
         File original = new File(nombreArchivo);
-        File temp = new File("temp_inventario.txt"); 
+        File temp = new File("temporal_inventario.txt"); 
 
         try (BufferedReader br = new BufferedReader(new FileReader(original));
              PrintWriter pw = new PrintWriter(new FileWriter(temp))) {
